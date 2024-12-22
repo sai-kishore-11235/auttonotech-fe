@@ -5,7 +5,9 @@ const Navbar = () => {
     return (
       (<nav className="bg-black00 p-4">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <Image src="/black-logo.png" width={203} height={234} alt='safsf'/>
+        <Link href="/">
+          <Image src="/black-logo.png" width={203} height={234} alt='Logo' />
+          </Link>
           <div className="text-white font-bold text-xl">
             <Link href="/">
               AuttonoTech
